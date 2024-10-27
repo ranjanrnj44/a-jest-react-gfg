@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component loads by default should match the snapshot and the component 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Hello World!
+    </h1>
+    <h1
+      data-testid="counter"
+    >
+      0
+    </h1>
+    <button
+      data-testid="button-up"
+    >
+      Increment
+    </button>
+    <button
+      data-testid="button-disabled"
+      disabled=""
+    >
+      Disabled
+    </button>
+    <button
+      data-testid="button-down"
+    >
+      Decrement
+    </button>
+    <br />
+    <button
+      name="Button"
+    >
+      Button
+    </button>
+    <br />
+    <h1>
+      RTK counter component!
+    </h1>
+    <h3>
+       count is : 0
+    </h3>
+    <button
+      data-testid="redux-increment"
+    >
+      Increment
+    </button>
+    <button
+      data-testid="redux-decrement"
+    >
+      Decrement
+    </button>
+    <button
+      data-testid="redux-incrementBy"
+    >
+      IncrementBy
+    </button>
+  </div>
+</DocumentFragment>
+`;
+
+exports[`should render App component by default should match the snapshot and the component 1`] = `
+<DocumentFragment>
+  <div>
+    <h1>
+      Hello World!
+    </h1>
+    <button>
+      Button
+    </button>
+  </div>
+</DocumentFragment>
+`;
